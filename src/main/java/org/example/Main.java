@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class Main {
-
+//tst
     public static void moveFiles(String sourceDir, String destDir) throws IOException{
         Files.createDirectories(Paths.get(destDir));
         File sourceFolder = new File(sourceDir);
